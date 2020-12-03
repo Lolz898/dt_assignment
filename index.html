@@ -1,0 +1,57 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <title>
+			Zach's Page
+        </title>
+		<script>
+	function show()
+	{
+		var div = document.getElementById("dropdown");
+		div.style.display = "block";
+	}
+	
+	function hide()
+	{
+		var div = document.getElementById("dropdown");
+		div.style.display = "none";
+	}
+		</script>
+    </head>
+
+    <body>
+      
+		<div id="header">
+			<img class="logo_image" src="images/horse.png">
+			<span style="font-weight: bold; color: black">Welcome to my site!</span>
+		</div>
+
+		<div id="linkbar">
+			<div class="links">
+				<a onclick="show()" href="#">Home</a> |
+				<a href="contact.html">Contact</a> |
+				<a href="cv.html">CV</a> |
+				<a href="projects.html">Projects</a> |
+			</div>
+		</div>
+		
+		<div id="dropdown" style="background: orange; border-bottom: 1px solid black; display: none">
+			<img style="height: 100px" src="images/three.jpg">
+			<img style="height: 100px" src="images/three.jpg">
+			<a onclick="hide();" href="#">Close</a>
+		</div>
+
+        <div id="info">
+			
+				<p>Hello! This is my page about stuff.</p>
+				
+				<p>Here is more things about stuff.</p>
+				
+				<p>Yep. There is <span style="font-style: italic; font-weight: bold; color: blue">stuff</span> . </p> 
+				
+		</div>
+	
+    </body>
+
+</html>

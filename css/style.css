@@ -1,0 +1,42 @@
+#header
+{
+	background: gray;
+	height: 100px;
+}
+
+.logo_image
+{
+	height: 100px;
+}
+
+#linkbar
+{
+	background: white;
+	height: 18px;
+}
+
+.links
+{
+	float: right;
+}
+
+#info
+{
+	background: red;
+	height: 100px;
+}
+
+.banner_links a:link
+{
+	color: black;
+}
+
+.banner_links a:visited
+{
+	color: black;
+}
+
+.banner_links a:hover
+{
+	color: red;
+}
