@@ -13,7 +13,7 @@
           <ul> <!-- Nav bar -->
             <li><a href="index.html">Home</a></li>
             <li><a href="projects.html" aria-current="true" class="active">Projects</a></li>
-            <li><a href="index.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
       </nav>
   </header>
@@ -39,11 +39,6 @@
 		  </div>
 		</div>
 		<br>
-		<div style="text-align:center">
-		  <span class="dot" onclick="currentSlide(1)"></span>
-		  <span class="dot" onclick="currentSlide(2)"></span>
-		  <span class="dot" onclick="currentSlide(3)"></span>
-		</div>
 		<script>
 var slideIndex = 0;
 showSlides();
@@ -51,23 +46,17 @@ showSlides();
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 6000);
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 		</script>
 		<h1>Humankind</h1>
-		<p>
-Humankind is a 4X game comparable to the Civilization series. Players lead their civilization across six major eras of human civilization, starting from the nomadic age, directing how the civilization should expand, develop cities, control military and other types of units as they interact with other civilizations on the virtual planet, randomly generated at the start of a new game. A distinguishing feature of Humankind is that within each of the eras, the player selects one of ten civilization types based on historical societies; this selection offers both bonuses and penalties to how the player can build out the civilization. Because a player can select different civilizations as a template to build upon, there exists potentially one million different civilization patterns that a player can ultimately develop.</p>
+		<p>Humankind is a 4X game comparable to the Civilization series. Players lead their civilization across six major eras of human civilization, starting from the nomadic age, directing how the civilization should expand, develop cities, control military and other types of units as they interact with other civilizations on the virtual planet, randomly generated at the start of a new game. A distinguishing feature of Humankind is that within each of the eras, the player selects one of ten civilization types based on historical societies; this selection offers both bonuses and penalties to how the player can build out the civilization. Because a player can select different civilizations as a template to build upon, there exists potentially one million different civilization patterns that a player can ultimately develop.</p>
 		<br>
 		<h1>Endless Dungeon</h1>
 		<p>Endless Dungeon is a sort of spiritual successor to Dungeon of the Endless, keeping the co-op roguelike elements but instead opts for a fully 3D real time shooter. Recently announced, we can't give much away, so here's the trailer!</p>
@@ -80,11 +69,11 @@ Humankind is a 4X game comparable to the Civilization series. Players lead their
       <div>
         <nav>
           <ul>
-            <li><a href="ourc_dummy.html">Privacy</a></li>
-            <li><a href="ourc_dummy.html">Contact</a></li>
-            <li><a href="ourc_dummy.html">FAQs</a></li>
-            <li><a href="ourc_dummy.html">Copyright</a></li>
-            <li><a href="ourc_dummy.html">Conditions of use</a></li>
+            <li><a href="dummy.html">Privacy</a></li>
+            <li><a href="dummy.html">About</a></li>
+            <li><a href="dummy.html">FAQs</a></li>
+            <li><a href="dummy.html">Copyright</a></li>
+            <li><a href="dummy.html">Conditions of use</a></li>
           </ul>
         </nav>
       </div>
