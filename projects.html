@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/style.css"> <!-- Links the CSS with this HTML file -->
 </head>
 <body>
-  <header>
+  <header> <!-- Header uses CSS linking -->
       <div>Amplitude Studios</div>
         <nav>
           <ul> <!-- Nav bar -->
@@ -17,11 +17,11 @@
           </ul>
       </nav>
   </header>
-  <main> 
-    <article> 
+  <main> <!-- Main uses CSS linking -->
+    <article> <!-- Article uses CSS linking -->
       <div>
 		<br>
-        <div class="slideshow-container">
+        <div class="slideshow-container"> <!-- Container for the image slideshow -->
 		  <div class="mySlides fade">
 			<div class="numbertext">1 / 3</div>
 			<img src="images/humankind_screenshot1.jpg" style="width:100%">
@@ -40,7 +40,7 @@
 		</div>
 		<br>
 		<script>
-var slideIndex = 0;
+var slideIndex = 0; // Simple script to automatically rotate between the images on the slideshow
 showSlides();
 
 function showSlides() {
@@ -52,7 +52,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 		</script>
 		<h1>Humankind</h1>
@@ -61,11 +61,11 @@ function showSlides() {
 		<h1>Endless Dungeon</h1>
 		<p>Endless Dungeon is a sort of spiritual successor to Dungeon of the Endless, keeping the co-op roguelike elements but instead opts for a fully 3D real time shooter. Recently announced, we can't give much away, so here's the trailer!</p>
 		<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/ER3dOPx0ZH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-		<br>
+		<br> <!-- Used YouTube to embed a video -->
 	  </div>
     </article>
   </main>
-    <footer> 
+    <footer> <!-- Footer uses CSS linking -->
       <div>
         <nav>
           <ul>
