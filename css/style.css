@@ -1,42 +1,109 @@
-#header
-{
-	background: gray;
-	height: 100px;
+/*This is a CSS comment*/
+html {
 }
 
-.logo_image
-{
-	height: 100px;
+/* Default text formatting  */
+body {
+    font-family: “Arial, Helvetica, sans-serif”;
+    font-size: 16px;
 }
 
-#linkbar
-{
-	background: white;
-	height: 18px;
+/* For active webpage */
+.active {
+    background-color: #e173ff;
+    color: #222222;
 }
 
-.links
-{
-	float: right;
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 
-#info
-{
-	background: red;
-	height: 100px;
+nav ul.vertical {
+    flex-direction: column;
 }
 
-.banner_links a:link
-{
-	color: black;
+nav ul li {
+    flex: 1 1 auto;
+    list-style-type: none;
+    
 }
 
-.banner_links a:visited
-{
-	color: black;
+nav ul li a {
+    text-decoration: none;
+    color: #1177d1; /* Link color */ 
 }
 
-.banner_links a:hover
-{
-	color: red;
+header {
+    max-width: 70rem;
+    margin: 0 auto;
+    background-color: #383838; /* header background colour */
+    color: #ffffff; /* header text colour */
+}
+
+header div {
+    padding: 0.5rem 0.8rem;
+}
+
+header nav {
+    background-color: #9000b8; /*Background colour for nav bar*/
+}
+
+header nav ul li a {
+    display: block;
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+    color: #ffffff; /*navigation font colour*/
+}
+
+header nav ul li a [aria-current="true"] {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;  
+}
+
+main {
+    max-width: 70rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    flex: 1 1 auto;
+}
+
+figure {
+    float: right;
+}
+
+figcaption {
+    font-size: 0.8rem;
+}
+
+aside {
+    flex: 0 0 auto;
+    width: 8rem;
+}
+
+footer {
+    max-width: 70rem;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    border-top: solid; /* adding border */
+    border-width: 4px;  /* adding border thickness */
+    border-color: #9000b8; /* adding border colour */
+	background-color: #383838;
+}
+
+footer nav li {
+    flex: 0 0 auto;
+}
+
+footer nav li a {
+    padding: 0.5rem 0.5rem;
+	color: #ffffff;
+	
 }

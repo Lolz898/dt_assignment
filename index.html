@@ -1,57 +1,64 @@
-<html>
-
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <title>
-			Zach's Page
-        </title>
-		<script>
-	function show()
-	{
-		var div = document.getElementById("dropdown");
-		div.style.display = "block";
-	}
-	
-	function hide()
-	{
-		var div = document.getElementById("dropdown");
-		div.style.display = "none";
-	}
-		</script>
-    </head>
-
-    <body>
-      
-		<div id="header">
-			<img class="logo_image" src="images/horse.png">
-			<span style="font-weight: bold; color: black">Welcome to my site!</span>
-		</div>
-
-		<div id="linkbar">
-			<div class="links">
-				<a onclick="show()" href="#">Home</a> |
-				<a href="contact.html">Contact</a> |
-				<a href="cv.html">CV</a> |
-				<a href="projects.html">Projects</a> |
-			</div>
-		</div>
-		
-		<div id="dropdown" style="background: orange; border-bottom: 1px solid black; display: none">
-			<img style="height: 100px" src="images/three.jpg">
-			<img style="height: 100px" src="images/three.jpg">
-			<a onclick="hide();" href="#">Close</a>
-		</div>
-
-        <div id="info">
-			
-				<p>Hello! This is my page about stuff.</p>
-				
-				<p>Here is more things about stuff.</p>
-				
-				<p>Yep. There is <span style="font-style: italic; font-weight: bold; color: blue">stuff</span> . </p> 
-				
-		</div>
-	
-    </body>
-
+<!DOCTYPE html>
+<html lang="en"> <!-- set language to english -->
+<head>
+  <meta charset="utf-8"/>
+  <title>Amplitude Studios</title>
+  <meta name="author" content="Zachary Morris"/>
+  <link rel="stylesheet" href="css/style.css"> <!-- Links the CSS with this HTML file -->
+</head>
+<body>
+  <header>
+      <div>Amplitude Studios</div>
+        <nav>
+          <ul> <!-- Nav bar -->
+            <li><a href="index.html" aria-current="true" class="active">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="index.html">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
+  <main> 
+    <article> 
+      <div>
+        <div>
+          <h1>About Amplitude Studios</h1>
+          <p>Originally founded by former Ubisoft employees Mathieu Girard and Romain de Waubert de Genlis, we work closely with the community to provide some of the best strategy games on the market.</p>
+	  <figure>
+            <img src="images/es2_galaxy.jpg" alt="screenshot of Endless Space 2 gameplay" />
+            <figcaption>Endless Space 2</figcaption>
+          </figure>
+          <p>As of November 2020, we have released five games, all in the extended Endless universe.</p>
+          <p>These include: Endless Space, Endless Space 2, Endless Legend, Dungeon of the Endless, and Love Thyself - A Horatio Story.</p>
+          <p>We also have two new games in active development, one of which being Humankind, a new IP which uses a grid turn based strategy game so you can make your own history. The other game is Endless Dungeon, a new Endless game akin to the other Dungeon of the Endless. See more of these two on the <a href="index.html">Projects</a> page.</p>
+        </div>
+        <div>
+          <h2>Links to our games on Steam</h2>
+          <nav>
+            <ul class="vertical">
+              <li><a href="https://store.steampowered.com/app/208140/Endless_Space__Collection/">Endless Space Collection</a></li>
+              <li><a href="https://store.steampowered.com/app/392110/Endless_Space_2__Digital_Deluxe_Edition/">Endless Space 2</a></li>
+              <li><a href="https://store.steampowered.com/app/289130/Endless_Legend__Emperor_Edition/">Endless Legend</a></li>
+              <li><a href="https://store.steampowered.com/app/249050/Dungeon_of_the_Endless__Crystal_Edition/">Dungeon of the Endless</a></li>
+              <li><a href="https://store.steampowered.com/app/949060/Love_Thyself__A_Horatio_Story/">Love Thyself</a></li>
+            <br />
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </article>
+  </main>
+    <footer> 
+      <div>
+        <nav>
+          <ul>
+            <li><a href="ourc_dummy.html">Privacy</a></li>
+            <li><a href="ourc_dummy.html">Contact</a></li>
+            <li><a href="ourc_dummy.html">FAQs</a></li>
+            <li><a href="ourc_dummy.html">Copyright</a></li>
+            <li><a href="ourc_dummy.html">Conditions of use</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+</body>
 </html>
