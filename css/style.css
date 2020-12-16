@@ -1,4 +1,3 @@
-/*This is a CSS comment*/
 html {
 }
 
@@ -75,7 +74,7 @@ article {
 }
 
 figure {
-    float: right;
+    float: right; /*for images*/
 }
 
 figcaption {
@@ -122,7 +121,7 @@ footer nav li a {
   display: none;
 }
 
-.text {
+.text {/*text used on the slideshow*/
   color: #000000;
   font-size: 18px;
   padding: 8px 12px;
@@ -133,7 +132,12 @@ footer nav li a {
   font-weight: bold;
 }
 
-.numbertext {
+.text span {
+	background-color: rgba(255,255,255,0.5);
+    background-blend-mode: lighten;
+}
+
+.numbertext {/*slide number on slideshow*/
   color: #000000;
   font-size: 12px;
   padding: 8px 12px;
@@ -141,7 +145,7 @@ footer nav li a {
   top: 0;
 }
 
-.fade {
+.fade {/*fade on image change*/
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;

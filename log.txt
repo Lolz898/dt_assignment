@@ -1,0 +1,35 @@
+commit ab3de714de62f8f19bac79f8ac5d8ca937e8969e
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 17:40:39 2020 +0000
+
+    Finished off the contact page, general tidying and making the code more consistent between pages, added more comments
+
+commit 09743f960b75707138e296ab365f6b6cc11179b5
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 16:46:59 2020 +0000
+
+    Created contact page, tidied up code layout in css and other webpages.
+
+commit 1a6d910f4341244e8a532db57e6a6b030dfcf685
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 16:11:02 2020 +0000
+
+    Finished projects page, added 3 images to be used in the slideshow, and embedded a video
+
+commit 126b72dbef548562cf80924b8c24452ea5cbc7fd
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 15:00:39 2020 +0000
+
+    Remade the basic layout, and heavily edited the css to make the creation process much simpler by referencing everything. Home page finished and started projects page.
+
+commit dcf243f8ab8f856c2883cf3b619510621b76f77d
+Author: Your Name <you@example.com>
+Date:   Thu Dec 3 12:38:50 2020 +0000
+
+    Basic folder structure added, along with the start of the website and some regular CSS
+
+commit 696cc64995970080077f1a0afbec83f32b517540
+Author: Zach <58236536+Lolz898@users.noreply.github.com>
+Date:   Thu Dec 3 12:31:48 2020 +0000
+
+    Initial commit
